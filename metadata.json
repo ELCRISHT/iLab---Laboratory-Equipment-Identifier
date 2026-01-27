@@ -1,0 +1,7 @@
+{
+  "name": "iLab - Laboratory Equipment Identifier",
+  "description": "A sophisticated AI-powered tool to identify laboratory equipment, provide usage guidelines, and safety protocols instantly.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
