@@ -20,7 +20,7 @@ const Privacy: React.FC = () => {
               Image Processing
             </h3>
             <p className="text-slate-600 dark:text-slate-400 leading-relaxed">
-              Images captured or uploaded to iLab are sent to Google Gemini APIs for transient analysis. 
+              Images captured or uploaded to iLab are sent to local storage only for transient analysis. 
               These images are not permanently stored on our servers. Once the identification result is returned, 
               the data is cleared from the active processing stream.
             </p>

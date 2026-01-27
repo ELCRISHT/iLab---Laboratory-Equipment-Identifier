@@ -84,7 +84,7 @@ const SafetyProtocols: React.FC = () => {
         <div>
           <h4 className="font-bold text-amber-900 dark:text-amber-100 mb-1">Important Reminder</h4>
           <p className="text-amber-800 dark:text-amber-200 text-sm leading-relaxed">
-            Safety Data Sheets (SDS) are available for all chemicals used in this facility. 
+            Safety Data Sheets (SDS) are available for all chemicals used in every facility. 
             Review the SDS for any new substance before beginning your experiment. 
             If you're unsure, ask your lab supervisor immediately.
           </p>
