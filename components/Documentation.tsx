@@ -62,7 +62,7 @@ const Documentation: React.FC = () => {
           </div>
           <div>
             <h4 className="font-bold text-slate-900 dark:text-slate-100 mb-1">How accurate is the identification?</h4>
-            <p className="text-slate-600 dark:text-slate-400 text-sm">iLab achieves >95% accuracy for standard laboratory glassware and electronic instruments. However, it should not be the sole source of safety information.</p>
+            <p className="text-slate-600 dark:text-slate-400 text-sm">iLab achieves {'>'}95% accuracy for standard laboratory glassware and electronic instruments. However, it should not be the sole source of safety information.</p>
           </div>
         </div>
       </section>
