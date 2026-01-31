@@ -4,22 +4,22 @@
 
 # iLab - Laboratory Equipment Identifier
 
-A modern web application for identifying and learning about laboratory equipment through image recognition. Built with React, TypeScript, and Vite for a fast and responsive user experience.
+A web application for identifying and learning about laboratory equipment through camera capture, providing detailed information about equipment usage, safety protocols, and best practices.
 
 ## Features
 
-- 📸 **Equipment Identification**: Upload images or use your camera to identify lab equipment
-- 📚 **Equipment Library**: Browse a comprehensive database of laboratory equipment
-- 🛡️ **Safety Protocols**: Access important safety information and guidelines
-- 📖 **Documentation**: Complete user guides and technical documentation
-- 🌓 **Dark Mode**: Toggle between light and dark themes
-- 📱 **Responsive Design**: Works seamlessly on desktop and mobile devices
-- 💾 **History Tracking**: Keep track of previously identified equipment
+- 📷 Real-time camera capture for equipment identification
+- 📚 Comprehensive equipment library
+- 🔬 Detailed equipment information and specifications
+- ⚠️ Safety protocols and guidelines
+- 📖 Interactive documentation
+- 🔒 Privacy-focused design
 
 ## Prerequisites
 
-- **Node.js** (version 16.x or higher)
-- **npm** (comes with Node.js)
+- **Node.js** (v16.0.0 or higher)
+- **npm** (v7.0.0 or higher)
+- Modern web browser with camera support (Chrome, Firefox, Safari, Edge)
 
 ## Installation
 
@@ -34,7 +34,7 @@ A modern web application for identifying and learning about laboratory equipment
    npm install
    ```
 
-3. **Set up environment variables**
+3. **Environment Setup**
    
    Create a `.env.local` file in the root directory:
    ```bash
@@ -45,8 +45,7 @@ A modern web application for identifying and learning about laboratory equipment
 
 ### Development Mode
 
-Start the development server with hot-reload:
-
+Start the development server:
 ```bash
 npm run dev
 ```
@@ -55,85 +54,97 @@ The application will be available at `http://localhost:5173`
 
 ### Production Build
 
-Build the application for production:
+1. **Build the application**
+   ```bash
+   npm run build
+   ```
 
-```bash
-npm run build
-```
-
-This will create an optimized build in the `dist` directory.
-
-### Preview Production Build
-
-Preview the production build locally:
-
-```bash
-npm run preview
-```
+2. **Preview the production build**
+   ```bash
+   npm run preview
+   ```
 
 ## Project Structure
 
 ```
 iLab---Laboratory-Equipment-Identifier/
 ├── components/           # React components
-│   ├── CameraOverlay.tsx    # Camera interface component
-│   ├── Documentation.tsx    # Documentation viewer
-│   ├── Header.tsx          # Application header
-│   ├── Library.tsx         # Equipment library
-│   ├── Privacy.tsx         # Privacy policy
-│   ├── ResultCard.tsx      # Result display component
-│   └── SafetyProtocols.tsx # Safety information
+│   ├── CameraOverlay.tsx
+│   ├── Documentation.tsx
+│   ├── Header.tsx
+│   ├── Library.tsx
+│   ├── Privacy.tsx
+│   ├── ResultCard.tsx
+│   └── SafetyProtocols.tsx
 ├── services/            # Service layer
-│   └── geminiService.ts    # Image recognition service
+│   └── geminiService.ts
 ├── App.tsx              # Main application component
 ├── index.tsx            # Application entry point
 ├── types.ts             # TypeScript type definitions
 ├── package.json         # Project dependencies
 ├── tsconfig.json        # TypeScript configuration
 ├── vite.config.ts       # Vite configuration
-└── README.md            # This file
+└── README.md            # Project documentation
 ```
 
 ## Usage
 
-1. **Identify Equipment**
-   - Click on the camera icon or upload button
-   - Take a photo or select an image from your device
-   - Wait for the identification process to complete
-   - View detailed information about the equipment
+1. **Launch the application** in your browser
+2. **Grant camera permissions** when prompted
+3. **Navigate through the tabs**:
+   - **Camera**: Capture images of laboratory equipment
+   - **Library**: Browse equipment database
+   - **Safety**: Review safety protocols
+   - **Documentation**: Access user guides
+   - **Privacy**: Review privacy policy
 
-2. **Browse Library**
-   - Navigate to the Library section
-   - Browse through the equipment catalog
-   - Click on any item for detailed information
+4. **Identify Equipment**:
+   - Position the equipment in camera view
+   - Click the capture button
+   - View identification results and detailed information
 
-3. **Safety Protocols**
-   - Access the Safety section from the navigation
-   - Review safety guidelines and protocols
-   - Learn about proper equipment handling
+## Technology Stack
 
-4. **View History**
-   - Your identification history is automatically saved
-   - Access previous identifications from your local storage
-   - Clear history as needed
+- **Frontend Framework**: React 19.2.4
+- **Language**: TypeScript 5.0.0
+- **Build Tool**: Vite 6.0.0
+- **Styling**: Tailwind CSS (inline styles)
+- **API Integration**: Google Generative AI
 
-## Technologies Used
+## Browser Compatibility
 
-- **React 19** - UI framework
-- **TypeScript 5** - Type-safe JavaScript
-- **Vite 6** - Fast build tool and dev server
-- **CSS3** - Modern styling with dark mode support
+- Chrome 90+
+- Firefox 88+
+- Safari 14+
+- Edge 90+
 
-## Browser Support
+## Troubleshooting
 
-- Chrome (latest)
-- Firefox (latest)
-- Safari (latest)
-- Edge (latest)
+### Camera Not Working
+- Ensure browser has camera permissions
+- Check if another application is using the camera
+- Try a different browser
+
+### Build Errors
+```bash
+# Clear node modules and reinstall
+rm -rf node_modules package-lock.json
+npm install
+```
+
+### Port Already in Use
+```bash
+# Use a different port
+npm run dev -- --port 3000
+```
 
 ## Contributing
 
-Contributions are welcome! Please feel free to submit a Pull Request.
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
 ## License
 
@@ -141,4 +152,4 @@ This project is licensed under the MIT License.
 
 ## Contact
 
-For questions or support, please open an issue on GitHub.
+Project Link: [https://github.com/ELCRISHT/iLab---Laboratory-Equipment-Identifier](https://github.com/ELCRISHT/iLab---Laboratory-Equipment-Identifier)
