@@ -2,12 +2,12 @@
 A web application for identifying and learning about laboratory equipment through camera capture, providing detailed information about equipment usage, safety protocols, and best practices.
 ## Features
 
-- 📷 Real-time camera capture for equipment identification
-- 📚 Comprehensive equipment library
-- 🔬 Detailed equipment information and specifications
-- ⚠️ Safety protocols and guidelines
-- 📖 Interactive documentation
-- 🔒 Privacy-focused design
+- Real-time camera capture for equipment identification
+- Comprehensive equipment library
+- Detailed equipment information and specifications
+- Safety protocols and guidelines
+- Interactive documentation
+- Privacy-focused design
 
 ## Prerequisites
 
