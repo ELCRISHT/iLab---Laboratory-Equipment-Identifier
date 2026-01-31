@@ -1,11 +1,5 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
-
 # iLab - Laboratory Equipment Identifier
-
 A web application for identifying and learning about laboratory equipment through camera capture, providing detailed information about equipment usage, safety protocols, and best practices.
-
 ## Features
 
 - 📷 Real-time camera capture for equipment identification
