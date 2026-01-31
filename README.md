@@ -141,9 +141,7 @@ npm run dev -- --port 3000
 5. Open a Pull Request
 
 ## License
-
 This project is licensed under the MIT License.
 
 ## Contact
-
 Project Link: [https://github.com/ELCRISHT/iLab---Laboratory-Equipment-Identifier](https://github.com/ELCRISHT/iLab---Laboratory-Equipment-Identifier)
